@@ -1,0 +1,68 @@
+body {
+    background: #181818;
+    color: #fff;
+    font-family: monospace;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-image: url('./images/noise-dark.png');
+}
+
+.container {
+    display:block;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 25px;
+    padding: 20px;
+    background-color: rgb(39, 44, 40);
+    border-radius: 1cm;
+    background-image: url('./images/noise-dark.png');
+    box-shadow: 0 0 0 2px #ffffff59;
+}
+
+#textDiv{
+    text-align: center;
+    margin-top: 35px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    box-shadow: 0 0 0 2px #fff;
+    background-color: #131313a4;
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    background-position: center; 
+    border-radius: 20px;
+    width: 150px; 
+    height: 50px;
+}
+
+#toggleBtn {
+    box-shadow: 0 0 0 2px #fff;
+    background-color: #1313139a;
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    background-position: center; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    width: 100px; 
+    height: 50px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#toggleBtn:hover{
+    background-color: #202020;
+    box-shadow: 0 0 0 2px #9291ff;
+    transform: scale(1.05);
+}
+
+#toggleBtn:active {
+    background-color: #202020;
+    box-shadow: 0 0 0 2px #9291ff;
+    transform: scale(0.96);
+}
