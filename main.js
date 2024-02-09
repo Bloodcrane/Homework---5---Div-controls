@@ -16,11 +16,13 @@ toggleBtn.addEventListener('click', function() {
 const toggleDiv = () => {
     if (isToggled) { 
         textDiv.style.backgroundColor = "#131313a4" 
+        // textDiv.classList.add('hidden'); // გადავიფიქრე
         textDiv.style.color = "#fff" 
         textDiv.style.boxShadow = '0 0 0 2px #fff';
     } 
         else {
         textDiv.style.backgroundColor = "#13131300"
+        // textDiv.classList.remove('hidden');
         textDiv.style.color = "#13131300"
         textDiv.style.boxShadow = '0 0 0 2px #ffffff23'; // მთლიანად არ დავმალე რადგან ასე უფრო ლამაზია
     }
